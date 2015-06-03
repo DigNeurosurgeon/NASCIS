@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5A58C6B1AE92D3F00CA1800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A58C6A1AE92D3F00CA1800 /* AppDelegate.swift */; };
+		F5A58C6D1AE92D3F00CA1800 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A58C6C1AE92D3F00CA1800 /* CalculatorViewController.swift */; };
+		F5A58C701AE92D3F00CA1800 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A58C6E1AE92D3F00CA1800 /* Main.storyboard */; };
+		F5A58C721AE92D3F00CA1800 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A58C711AE92D3F00CA1800 /* Images.xcassets */; };
+		F5A58C751AE92D3F00CA1800 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5A58C731AE92D3F00CA1800 /* LaunchScreen.xib */; };
+		F5A58C811AE92D4000CA1800 /* NASCISTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A58C801AE92D4000CA1800 /* NASCISTests.swift */; };
+		F5B2209B1AF0E9440060A072 /* nascis_29.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220901AF0E9440060A072 /* nascis_29.png */; };
+		F5B2209C1AF0E9440060A072 /* nascis_29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220911AF0E9440060A072 /* nascis_29@2x.png */; };
+		F5B2209D1AF0E9440060A072 /* nascis_29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220921AF0E9440060A072 /* nascis_29@3x.png */; };
+		F5B2209E1AF0E9440060A072 /* nascis_40.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220931AF0E9440060A072 /* nascis_40.png */; };
+		F5B2209F1AF0E9440060A072 /* nascis_40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220941AF0E9440060A072 /* nascis_40@2x.png */; };
+		F5B220A01AF0E9440060A072 /* nascis_40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220951AF0E9440060A072 /* nascis_40@3x.png */; };
+		F5B220A11AF0E9440060A072 /* nascis_60.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220961AF0E9440060A072 /* nascis_60.png */; };
+		F5B220A21AF0E9440060A072 /* nascis_60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220971AF0E9440060A072 /* nascis_60@2x.png */; };
+		F5B220A31AF0E9440060A072 /* nascis_60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220981AF0E9440060A072 /* nascis_60@3x.png */; };
+		F5B220A41AF0E9440060A072 /* nascis_76.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220991AF0E9440060A072 /* nascis_76.png */; };
+		F5B220A51AF0E9440060A072 /* nascis_76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B2209A1AF0E9440060A072 /* nascis_76@2x.png */; };
+		F5B220B11AF0F32F0060A072 /* CE_70.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220AE1AF0F32F0060A072 /* CE_70.png */; };
+		F5B220B21AF0F32F0060A072 /* CE_70@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220AF1AF0F32F0060A072 /* CE_70@2x.png */; };
+		F5B220B31AF0F32F0060A072 /* CE_70@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5B220B01AF0F32F0060A072 /* CE_70@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A58C7B1AE92D4000CA1800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A58C5D1AE92D3F00CA1800 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A58C641AE92D3F00CA1800;
+			remoteInfo = NASCIS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5A58C651AE92D3F00CA1800 /* NASCIS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASCIS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A58C691AE92D3F00CA1800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A58C6A1AE92D3F00CA1800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5A58C6C1AE92D3F00CA1800 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		F5A58C6F1AE92D3F00CA1800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5A58C711AE92D3F00CA1800 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5A58C741AE92D3F00CA1800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5A58C7A1AE92D4000CA1800 /* NASCISTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASCISTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A58C7F1AE92D4000CA1800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A58C801AE92D4000CA1800 /* NASCISTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASCISTests.swift; sourceTree = "<group>"; };
+		F5B2208C1AF0A8060060A072 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../MyPlayground.playground; sourceTree = "<group>"; };
+		F5B220901AF0E9440060A072 /* nascis_29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nascis_29.png; sourceTree = "<group>"; };
+		F5B220911AF0E9440060A072 /* nascis_29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nascis_29@2x.png"; sourceTree = "<group>"; };
+		F5B220921AF0E9440060A072 /* nascis_29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nascis_29@3x.png"; sourceTree = "<group>"; };
+		F5B220931AF0E9440060A072 /* nascis_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nascis_40.png; sourceTree = "<group>"; };
+		F5B220941AF0E9440060A072 /* nascis_40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nascis_40@2x.png"; sourceTree = "<group>"; };
+		F5B220951AF0E9440060A072 /* nascis_40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nascis_40@3x.png"; sourceTree = "<group>"; };
+		F5B220961AF0E9440060A072 /* nascis_60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nascis_60.png; sourceTree = "<group>"; };
+		F5B220971AF0E9440060A072 /* nascis_60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nascis_60@2x.png"; sourceTree = "<group>"; };
+		F5B220981AF0E9440060A072 /* nascis_60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nascis_60@3x.png"; sourceTree = "<group>"; };
+		F5B220991AF0E9440060A072 /* nascis_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nascis_76.png; sourceTree = "<group>"; };
+		F5B2209A1AF0E9440060A072 /* nascis_76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nascis_76@2x.png"; sourceTree = "<group>"; };
+		F5B220AE1AF0F32F0060A072 /* CE_70.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CE_70.png; sourceTree = "<group>"; };
+		F5B220AF1AF0F32F0060A072 /* CE_70@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CE_70@2x.png"; sourceTree = "<group>"; };
+		F5B220B01AF0F32F0060A072 /* CE_70@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CE_70@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A58C621AE92D3F00CA1800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A58C771AE92D4000CA1800 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A58C5C1AE92D3F00CA1800 = {
+			isa = PBXGroup;
+			children = (
+				F5A58C671AE92D3F00CA1800 /* NASCIS */,
+				F5A58C7D1AE92D4000CA1800 /* NASCISTests */,
+				F5A58C661AE92D3F00CA1800 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A58C661AE92D3F00CA1800 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A58C651AE92D3F00CA1800 /* NASCIS.app */,
+				F5A58C7A1AE92D4000CA1800 /* NASCISTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A58C671AE92D3F00CA1800 /* NASCIS */ = {
+			isa = PBXGroup;
+			children = (
+				F5A58C6A1AE92D3F00CA1800 /* AppDelegate.swift */,
+				F5A58C6C1AE92D3F00CA1800 /* CalculatorViewController.swift */,
+				F5A58C711AE92D3F00CA1800 /* Images.xcassets */,
+				F5A58C6E1AE92D3F00CA1800 /* Main.storyboard */,
+				F5A58C731AE92D3F00CA1800 /* LaunchScreen.xib */,
+				F5A58C681AE92D3F00CA1800 /* Supporting Files */,
+				F5B2208C1AF0A8060060A072 /* MyPlayground.playground */,
+			);
+			path = NASCIS;
+			sourceTree = "<group>";
+		};
+		F5A58C681AE92D3F00CA1800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B220A71AF0F2130060A072 /* Images */,
+				F5B2208F1AF0E9330060A072 /* Icons */,
+				F5A58C691AE92D3F00CA1800 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A58C7D1AE92D4000CA1800 /* NASCISTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A58C801AE92D4000CA1800 /* NASCISTests.swift */,
+				F5A58C7E1AE92D4000CA1800 /* Supporting Files */,
+			);
+			path = NASCISTests;
+			sourceTree = "<group>";
+		};
+		F5A58C7E1AE92D4000CA1800 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A58C7F1AE92D4000CA1800 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B2208F1AF0E9330060A072 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F5B220901AF0E9440060A072 /* nascis_29.png */,
+				F5B220911AF0E9440060A072 /* nascis_29@2x.png */,
+				F5B220921AF0E9440060A072 /* nascis_29@3x.png */,
+				F5B220931AF0E9440060A072 /* nascis_40.png */,
+				F5B220941AF0E9440060A072 /* nascis_40@2x.png */,
+				F5B220951AF0E9440060A072 /* nascis_40@3x.png */,
+				F5B220961AF0E9440060A072 /* nascis_60.png */,
+				F5B220971AF0E9440060A072 /* nascis_60@2x.png */,
+				F5B220981AF0E9440060A072 /* nascis_60@3x.png */,
+				F5B220991AF0E9440060A072 /* nascis_76.png */,
+				F5B2209A1AF0E9440060A072 /* nascis_76@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		F5B220A71AF0F2130060A072 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F5B220AE1AF0F32F0060A072 /* CE_70.png */,
+				F5B220AF1AF0F32F0060A072 /* CE_70@2x.png */,
+				F5B220B01AF0F32F0060A072 /* CE_70@3x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A58C641AE92D3F00CA1800 /* NASCIS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A58C841AE92D4000CA1800 /* Build configuration list for PBXNativeTarget "NASCIS" */;
+			buildPhases = (
+				F5A58C611AE92D3F00CA1800 /* Sources */,
+				F5A58C621AE92D3F00CA1800 /* Frameworks */,
+				F5A58C631AE92D3F00CA1800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NASCIS;
+			productName = NASCIS;
+			productReference = F5A58C651AE92D3F00CA1800 /* NASCIS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A58C791AE92D4000CA1800 /* NASCISTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A58C871AE92D4000CA1800 /* Build configuration list for PBXNativeTarget "NASCISTests" */;
+			buildPhases = (
+				F5A58C761AE92D4000CA1800 /* Sources */,
+				F5A58C771AE92D4000CA1800 /* Frameworks */,
+				F5A58C781AE92D4000CA1800 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A58C7C1AE92D4000CA1800 /* PBXTargetDependency */,
+			);
+			name = NASCISTests;
+			productName = NASCISTests;
+			productReference = F5A58C7A1AE92D4000CA1800 /* NASCISTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A58C5D1AE92D3F00CA1800 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = DigitalNeurosurgeon.com;
+				TargetAttributes = {
+					F5A58C641AE92D3F00CA1800 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = XJW89ZK9NM;
+					};
+					F5A58C791AE92D4000CA1800 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = F5A58C641AE92D3F00CA1800;
+					};
+				};
+			};
+			buildConfigurationList = F5A58C601AE92D3F00CA1800 /* Build configuration list for PBXProject "NASCIS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5A58C5C1AE92D3F00CA1800;
+			productRefGroup = F5A58C661AE92D3F00CA1800 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A58C641AE92D3F00CA1800 /* NASCIS */,
+				F5A58C791AE92D4000CA1800 /* NASCISTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A58C631AE92D3F00CA1800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B220A41AF0E9440060A072 /* nascis_76.png in Resources */,
+				F5A58C701AE92D3F00CA1800 /* Main.storyboard in Resources */,
+				F5B220B11AF0F32F0060A072 /* CE_70.png in Resources */,
+				F5B220A21AF0E9440060A072 /* nascis_60@2x.png in Resources */,
+				F5B2209F1AF0E9440060A072 /* nascis_40@2x.png in Resources */,
+				F5B220A01AF0E9440060A072 /* nascis_40@3x.png in Resources */,
+				F5A58C751AE92D3F00CA1800 /* LaunchScreen.xib in Resources */,
+				F5B220B21AF0F32F0060A072 /* CE_70@2x.png in Resources */,
+				F5B220B31AF0F32F0060A072 /* CE_70@3x.png in Resources */,
+				F5B2209C1AF0E9440060A072 /* nascis_29@2x.png in Resources */,
+				F5B2209D1AF0E9440060A072 /* nascis_29@3x.png in Resources */,
+				F5B220A51AF0E9440060A072 /* nascis_76@2x.png in Resources */,
+				F5A58C721AE92D3F00CA1800 /* Images.xcassets in Resources */,
+				F5B220A31AF0E9440060A072 /* nascis_60@3x.png in Resources */,
+				F5B2209E1AF0E9440060A072 /* nascis_40.png in Resources */,
+				F5B220A11AF0E9440060A072 /* nascis_60.png in Resources */,
+				F5B2209B1AF0E9440060A072 /* nascis_29.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A58C781AE92D4000CA1800 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A58C611AE92D3F00CA1800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A58C6D1AE92D3F00CA1800 /* CalculatorViewController.swift in Sources */,
+				F5A58C6B1AE92D3F00CA1800 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A58C761AE92D4000CA1800 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A58C811AE92D4000CA1800 /* NASCISTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A58C7C1AE92D4000CA1800 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A58C641AE92D3F00CA1800 /* NASCIS */;
+			targetProxy = F5A58C7B1AE92D4000CA1800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A58C6E1AE92D3F00CA1800 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A58C6F1AE92D3F00CA1800 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A58C731AE92D3F00CA1800 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A58C741AE92D3F00CA1800 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A58C821AE92D4000CA1800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A58C831AE92D4000CA1800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A58C851AE92D4000CA1800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NASCIS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A58C861AE92D4000CA1800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = NASCIS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5A58C881AE92D4000CA1800 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NASCISTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASCIS.app/NASCIS";
+			};
+			name = Debug;
+		};
+		F5A58C891AE92D4000CA1800 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NASCISTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASCIS.app/NASCIS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A58C601AE92D3F00CA1800 /* Build configuration list for PBXProject "NASCIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A58C821AE92D4000CA1800 /* Debug */,
+				F5A58C831AE92D4000CA1800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A58C841AE92D4000CA1800 /* Build configuration list for PBXNativeTarget "NASCIS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A58C851AE92D4000CA1800 /* Debug */,
+				F5A58C861AE92D4000CA1800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A58C871AE92D4000CA1800 /* Build configuration list for PBXNativeTarget "NASCISTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A58C881AE92D4000CA1800 /* Debug */,
+				F5A58C891AE92D4000CA1800 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A58C5D1AE92D3F00CA1800 /* Project object */;
+}
